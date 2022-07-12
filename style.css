@@ -33,17 +33,20 @@ body{
 .container {
   background-color: var(--branco);
   text-align: center;
-  padding: 4rem;
+  padding: 4rem 2rem;
   margin: 0 auto;
   width: 50vw;
   border-radius: 1rem;
+  box-shadow: .4rem .4rem .4rem rgba(0, 0, 0, 0.4);
 }
 
 .container h3 {
   font-size: 2.4rem;
-  margin-bottom: 2rem;
-  color: var(--cor4);
-  font-style: italic;
+  margin-bottom: 4rem;
+  color: var(--cor5);
+  letter-spacing: .2rem;
+  opacity: 0.5;
+  
 }
 
 .container p {
@@ -61,6 +64,7 @@ body{
   color: var(--branco);
   border: 0;
   border-radius: 1rem;
+  box-shadow: .4rem .4rem .4rem rgba(0, 0, 0, 0.4);
   margin: 0 auto;
   cursor: pointer;  
 }
@@ -71,4 +75,7 @@ body{
 
 .btn:hover {
   background-color: var(--cor3);
+}
+.btn:focus {
+  outline: 0;
 }

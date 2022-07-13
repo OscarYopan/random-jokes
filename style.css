@@ -21,61 +21,58 @@ html{
   font-size: 62.5%;
 }
 
-body{
+body {
+  background-color: var(--cor3);
+  font-family: 'Roboto', sans-serif;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
   overflow: hidden;
-  background-color: var(--cor3);
+  margin: 0;
+  padding: 2rem;
 }
 
 .container {
-  background-color: var(--branco);
-  text-align: center;
-  padding: 4rem 2rem;
-  margin: 0 auto;
-  width: 50vw;
+  background-color: #fff;
   border-radius: 1rem;
-  box-shadow: .4rem .4rem .4rem rgba(0, 0, 0, 0.4);
+  box-shadow: 3rem 3rem 3rem rgba(0, 0, 0, 0.3);
+  padding: 5rem 2rem;
+  text-align: center;
+  max-width: 100%;
+  width: 80rem;
 }
 
-.container h3 {
-  font-size: 2.4rem;
-  margin-bottom: 4rem;
-  color: var(--cor5);
-  letter-spacing: .2rem;
+h3 {
+  margin: 0;
   opacity: 0.5;
-  
+  letter-spacing: .2rem;
 }
 
-.container p {
-  font-size: 1.8rem;
-  margin-bottom: 4rem;
-  letter-spacing: .1rem;
+.joke {
+  font-size: 3rem;
+  letter-spacing: 1rem;
+  line-height: 40px;
+  margin: 50px auto;
+  max-width: 600px;
 }
 
 .btn {
-  background-color: var(--cor1);
-  width: 15rem;
-  padding: 1.5rem;
-  font-size: 1.8rem;  
-  font-weight: bold;
-  color: var(--branco);
+  background-color: #9f68e0;
+  color: #fff;
   border: 0;
-  border-radius: 1rem;
-  box-shadow: .4rem .4rem .4rem rgba(0, 0, 0, 0.4);
-  margin: 0 auto;
-  cursor: pointer;  
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  padding: 14px 40px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .btn:active {
   transform: scale(0.98);
 }
 
-.btn:hover {
-  background-color: var(--cor3);
-}
 .btn:focus {
   outline: 0;
 }

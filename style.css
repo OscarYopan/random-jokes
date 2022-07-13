@@ -35,9 +35,9 @@ body {
 }
 
 .container {
-  background-color: #fff;
+  background-color:var(--branco);
   border-radius: 1rem;
-  box-shadow: 3rem 3rem 3rem rgba(0, 0, 0, 0.3);
+  box-shadow: .3rem .3rem .3rem rgba(0, 0, 0, 0.3);
   padding: 5rem 2rem;
   text-align: center;
   max-width: 100%;
@@ -53,19 +53,19 @@ h3 {
 .joke {
   font-size: 3rem;
   letter-spacing: 1rem;
-  line-height: 40px;
-  margin: 50px auto;
-  max-width: 600px;
+  line-height: 4rem;
+  margin: 5rem auto;
+  max-width: 60rem;
 }
 
 .btn {
-  background-color: #9f68e0;
-  color: #fff;
+  background-color: var(--cor5);
+  color: var(--branco);
   border: 0;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
-  padding: 14px 40px;
-  font-size: 16px;
+  border-radius: 1rem;
+  box-shadow: .3rem .3rem .3rem rgba(0, 0, 0, 0.3);
+  padding: 1.4rem 4rem;
+  font-size: 1.6rem;
   cursor: pointer;
 }
 
@@ -75,4 +75,8 @@ h3 {
 
 .btn:focus {
   outline: 0;
+}
+
+.btn:hover {
+  background-color: var(--cor4);
 }
